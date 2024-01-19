@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+}
+
+header {
+    background-image: url(../img/bg-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: right;
+    text-shadow: 0px 3px 6px #00000080;
+    font-family: "Open sans";
+    color: white;
+    height: 422px;
+    padding-right: 11.3em;
+    padding-bottom: 12.3rem;
+    padding-top: 52px;
+}
+
+h1 {
+    font-size: 3.75rem;
+    font-weight: 800;
+}
+
+header h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+nav {
+    background-color: #000F08;
+    height: 99px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 57px;
+    vertical-align: middle;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.icono {
+    width: 44px;
+    height: 44px;
+}
+
+.icono svg {
+    fill: #ffffff;
+}
+
+#ubicacion {
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 153px;
+    padding-bottom: 131px;
+}
+
+#ubicacion h2 {
+    margin-top: 41px;
+    margin-bottom: 18px;
+
+    font-size: 2.9rem;
+    font-weight: bold;
+}
+
+#ubicacion p {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+#proxima-charla {
+    background: #a4452c;
+    padding: 100px;
+    color: white;
+}
+
+#proxima-charla .wrapper {
+    width: 800px;
+    margin: auto;
+}
+
+.wrapper img {
+    width: 32%;
+    border-radius: 5px;
+}
+
+.wrapper .texto {
+    width: 60%;
+    margin-left: 4%;
+}
+
+.wrapper h2{
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.wrapper h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.wrapper h4{
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.wrapper h5{
+    font-size: 1.25rem;
+    font-weight: lighter;
+}
+
+.wrapper p{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    line-height: 34px;
+    margin-top: 10px;
+}
+
+.wrapper img,
+.texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    background: #000f08;
+    color: white;
+    padding: 40px
+}
+
+i {
+    font-size: 30px;
+    margin-right: 27px;
+    margin-bottom: 46px;
+    margin-top: 101px;
+}
+
+.evento {
+    display: inline-block;
+    margin: 30px;
+    text-align: center;
+}
+
+#eventos {
+    text-align: center;
+}
+
+#eventos img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+#eventos h2 {
+    margin-top: 143px;
+    margin-bottom: 75px;
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+#eventos h3 {
+    margin-bottom: 162px;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+#eventos h2,
+h3 {
+    font-family: "Open Sans", bold;
+}
